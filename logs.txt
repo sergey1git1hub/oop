@@ -1,0 +1,84 @@
+2017-10-25 03:32:55,411 main DEBUG Initializing configuration XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml]
+2017-10-25 03:32:55,433 main DEBUG Installed script engines
+2017-10-25 03:32:57,015 main DEBUG Oracle Nashorn Version: 1.8.0_131, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2017-10-25 03:32:57,022 main DEBUG PluginManager 'Core' found 107 plugins
+2017-10-25 03:32:57,023 main DEBUG PluginManager 'Level' found 0 plugins
+2017-10-25 03:32:57,035 main DEBUG Log4j2 ConfigurationScheduler: No scheduled items
+2017-10-25 03:32:57,037 main DEBUG PluginManager 'Lookup' found 13 plugins
+2017-10-25 03:32:57,042 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2017-10-25 03:32:57,074 main TRACE TypeConverterRegistry initializing.
+2017-10-25 03:32:57,075 main DEBUG PluginManager 'TypeConverter' found 23 plugins
+2017-10-25 03:32:57,118 main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %C - %msg%n", PatternSelector=null, Configuration(C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", noConsoleNoAnsi="null", header="null", footer="null")
+2017-10-25 03:32:57,119 main DEBUG PluginManager 'Converter' found 41 plugins
+2017-10-25 03:32:57,175 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2017-10-25 03:32:57,263 main DEBUG FileAppender$Builder(fileName="/tmp/logging.out", append="false", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", Configuration(C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml), bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %C - %msg%n), name="file-log", Filter=null)
+2017-10-25 03:32:57,267 main DEBUG Starting FileManager /tmp/logging.out
+2017-10-25 03:32:57,268 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2017-10-25 03:32:57,282 main DEBUG createAppenders(={file-log})
+2017-10-25 03:32:57,283 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2017-10-25 03:32:57,345 main DEBUG createAppenderRef(ref="file-log", level="INFO", Filter=null)
+2017-10-25 03:32:57,346 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2017-10-25 03:32:57,361 main DEBUG createLogger(additivity="false", level="INFO", name="com.anishek.logging", includeLocation="null", ={file-log}, ={}, Configuration(C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml), Filter=null)
+2017-10-25 03:32:57,377 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2017-10-25 03:32:57,381 main DEBUG createLoggers(={com.anishek.logging})
+2017-10-25 03:32:57,383 main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
+2017-10-25 03:32:57,385 main DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+2017-10-25 03:32:57,385 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false-2
+2017-10-25 03:32:57,389 main DEBUG Configuration XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml] initialized
+2017-10-25 03:32:57,396 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml]
+2017-10-25 03:32:57,398 main DEBUG Started configuration XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml] OK.
+2017-10-25 03:32:57,399 main TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@443b7951...
+2017-10-25 03:32:57,400 main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2017-10-25 03:32:57,400 main TRACE DefaultConfiguration stopping root LoggerConfig.
+2017-10-25 03:32:57,401 main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2017-10-25 03:32:57,403 main TRACE DefaultConfiguration stopping remaining Appenders.
+2017-10-25 03:32:57,404 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2017-10-25 03:32:57,405 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2017-10-25 03:32:57,405 main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2017-10-25 03:32:57,426 main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2017-10-25 03:32:57,426 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@443b7951 OK
+2017-10-25 03:32:57,701 main TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@61862a7f
+2017-10-25 03:32:57,702 main TRACE Reregistering context (1/1): '73d16e93' org.apache.logging.log4j.core.LoggerContext@441772e
+2017-10-25 03:32:57,707 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93'
+2017-10-25 03:32:57,710 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=StatusLogger'
+2017-10-25 03:32:57,711 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=ContextSelector'
+2017-10-25 03:32:57,712 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*'
+2017-10-25 03:32:57,714 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=*'
+2017-10-25 03:32:57,719 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncAppenders,name=*'
+2017-10-25 03:32:57,720 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncLoggerRingBuffer'
+2017-10-25 03:32:57,721 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*,subtype=RingBuffer'
+2017-10-25 03:32:57,730 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93
+2017-10-25 03:32:57,737 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=StatusLogger
+2017-10-25 03:32:57,740 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=ContextSelector
+2017-10-25 03:32:57,743 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=com.anishek.logging
+2017-10-25 03:32:57,752 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=DefaultConsole-2
+2017-10-25 03:32:57,758 main DEBUG Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=file-log
+2017-10-25 03:32:57,774 main TRACE Using default SystemClock for timestamps.
+2017-10-25 03:32:57,775 main TRACE Using DummyNanoClock for nanosecond timestamps.
+2017-10-25 03:32:57,788 main DEBUG Reconfiguration complete for context[name=73d16e93] at URI C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@441772e) with optional ClassLoader: null
+2017-10-25 03:32:57,789 main DEBUG Shutdown hook enabled. Registering a new one.
+2017-10-25 03:32:57,793 main DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@441772e] started OK.
+2017-10-25 03:32:57,808 pool-1-thread-1 DEBUG Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@441772e]
+2017-10-25 03:32:57,808 pool-1-thread-1 DEBUG Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@441772e]...
+2017-10-25 03:32:57,810 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93]
+2017-10-25 03:32:57,811 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=StatusLogger]
+2017-10-25 03:32:57,813 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=ContextSelector]
+2017-10-25 03:32:57,832 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=com.anishek.logging]
+2017-10-25 03:32:57,832 pool-1-thread-1 TRACE Unregistering 2 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=DefaultConsole-2, org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=file-log]
+2017-10-25 03:32:57,835 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncAppenders,name=*'
+2017-10-25 03:32:57,835 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncLoggerRingBuffer'
+2017-10-25 03:32:57,837 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*,subtype=RingBuffer'
+2017-10-25 03:32:57,838 pool-1-thread-1 TRACE Stopping XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml]...
+2017-10-25 03:32:57,838 pool-1-thread-1 TRACE XmlConfiguration notified 2 ReliabilityStrategies that config will be stopped.
+2017-10-25 03:32:57,839 pool-1-thread-1 TRACE XmlConfiguration stopping 1 LoggerConfigs.
+2017-10-25 03:32:57,840 pool-1-thread-1 TRACE XmlConfiguration stopping root LoggerConfig.
+2017-10-25 03:32:57,843 pool-1-thread-1 TRACE XmlConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2017-10-25 03:32:57,844 pool-1-thread-1 TRACE XmlConfiguration stopping remaining Appenders.
+2017-10-25 03:32:57,845 pool-1-thread-1 DEBUG Shutting down FileManager /tmp/logging.out
+2017-10-25 03:32:57,847 pool-1-thread-1 DEBUG Shut down FileManager /tmp/logging.out, all resources released: true
+2017-10-25 03:32:57,848 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-2
+2017-10-25 03:32:57,848 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-2, all resources released: true
+2017-10-25 03:32:57,849 pool-1-thread-1 TRACE XmlConfiguration stopped 2 remaining Appenders.
+2017-10-25 03:32:57,853 pool-1-thread-1 TRACE XmlConfiguration cleaning Appenders from 2 LoggerConfigs.
+2017-10-25 03:32:57,855 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=C:\Users\sergey\Desktop\EclipsDesignPatternsFolder\target\classes\log4j2.xml] OK
+2017-10-25 03:32:57,857 pool-1-thread-1 DEBUG Stopped LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@441772e]...
