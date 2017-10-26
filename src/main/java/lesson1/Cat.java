@@ -1,4 +1,4 @@
-package designPatternsTutorial;
+package lesson1;
 
 public class Cat extends Animal {
 	public Cat(){

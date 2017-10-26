@@ -1,9 +1,12 @@
-package designPatternsTutorial;
+package lesson1;
 
 public class Dog extends Animal {
 	public void digHole(){
 		System.out.println("Dug a hole.");
+	}
 	
+	public void fly(){
+		System.out.println("I am not flying.");
 	}
 	
 	public void changeVar(int randNum){
@@ -16,6 +19,7 @@ public class Dog extends Animal {
 		System.out.println("LOG: Dog - Dog constructor called.");
 		//System.out.println("LOG: " + this.toString());
 		setSound("Bark!");
+		flyingType = new CantFly();
 	}
 
 }
